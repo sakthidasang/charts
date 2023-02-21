@@ -1,6 +1,6 @@
-deployment:
-  kong:
-    enabled: false
+#deployment:
+#  kong:
+#    enabled: false
 
 proxy:
   ## This must match the gateway release's proxy Service name.

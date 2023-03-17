@@ -862,7 +862,8 @@ priorityClassName: ""
 securityContext: {}
 
 # securityContext for containers.
-containerSecurityContext: {}
+containerSecurityContext:
+  readOnlyRootFilesystem: true
 
 ## Optional DNS configuration for Kong pods
 # dnsPolicy: ClusterFirst

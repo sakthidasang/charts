@@ -20,6 +20,11 @@
   [#762](https://github.com/Kong/charts/pull/762)
 * Added support for loadBalancerClass in LoadBalancer type services.
   [#767](https://github.com/Kong/charts/pull/767)
+* Security context enforces read-only root filesystem by default. This is not
+  expected to affect most configurations, but [will afffect custom plugins that
+  write to the container filesystem](https://github.com/Kong/charts/blob/main/charts/kong/UPGRADE.md#2170).
+  [#770](https://github.com/Kong/charts/pull/770)
+
 
 ### Under the hood
 

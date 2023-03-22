@@ -24,7 +24,8 @@
   expected to affect most configurations, but [will afffect custom plugins that
   write to the container filesystem](https://github.com/Kong/charts/blob/main/charts/kong/UPGRADE.md#2170).
   [#770](https://github.com/Kong/charts/pull/770)
-
+* Added support for GRPCRoute.
+  [#772](https://github.com/Kong/charts/pull/772)
 
 ### Under the hood
 

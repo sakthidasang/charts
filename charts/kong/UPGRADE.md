@@ -91,7 +91,7 @@ images are compatible with this setting. The chart mounts temporary writeable
 emptyDir filesystems for locations that require writeable files (`/tmp` and
 `/kong_prefix/`).
 
-This setting limit attack surface and should be compatible with most
+This setting limits attack surface and should be compatible with most
 installations. However, if you use custom plugins that write to disk, you must
 either mount a writeable emptyDir for them or override the new defaults by
 setting:
